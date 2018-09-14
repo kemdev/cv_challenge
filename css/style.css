@@ -1,0 +1,688 @@
+@font-face {
+    font-family: "SIMPLIFICA_Typeface";
+    src: url(../fonts/SIMPLIFICA_Typeface.ttf);
+  }
+  @font-face {
+    font-family: "LeagueGothic-CondensedRegular";
+    src: url(../fonts/LeagueGothic-CondensedRegular.otf);
+  }
+/* 
+===================================
+        scrollbar style
+==================================== */
+
+  /* width */
+::-webkit-scrollbar {
+    width: 15px;
+    background: rgb(255, 255, 255) ;
+  }
+
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 2px;
+    
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4d4d4d; 
+    border-radius: 2px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #303030;
+}
+/* 
+======================
+end of scrollbar style
+======================= */
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "SIMPLIFICA_Typeface";
+  margin: 0;
+  text-align: center !important;
+  /* width: 960px; */
+  height: 100%;
+  font-size: 1.5em;
+  background-color: #d92c2e;
+  letter-spacing: 6px;
+  color: #fff !important;
+  }
+  
+  nav ul {
+    display: flex;
+    margin-top: 0 !important;
+    
+  }
+  
+  ul .homeColor a {
+    background-color: darkred;
+    padding: 20px;
+  }
+  
+  nav ul li {
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 20px 10px;
+    /* width: 100%; */
+    height: 80px;
+  }
+  
+  nav  a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #303030 !important;
+    /* border: 2px solid wheat; */
+    transition: all 0.3s;
+    box-shadow: 8px 10px 20px 0 rgba(10, 11, 12, 0.15);
+    font-size: 1.5em;
+    padding: 20px;
+  }
+  
+  h1 {
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-family: "Cairo";
+    color: #303030;
+    /* margin: 0 0 20px 0; */
+  }
+  
+  .imageDiv img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+  }
+  
+  div .download {
+    width: 300px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+  }
+  
+  div .download:hover {
+    background-color: #303030;
+    transition: all 0.3s;
+  }
+
+
+/* < ----- here is second block -----> */
+.container {
+    height: 500px;
+    width: 100%;
+    background-color: #fff;
+    color: #D92C2E;
+    padding-top: 25px;
+    font-size: initial;
+}
+
+
+.redLine {
+    width: 10%;
+    border: 1px solid #D92C2E;
+}
+
+.container p {
+    color: #303030;
+    font-weight: bold;
+    font-family:"Cairo" ,Arial, Helvetica, sans-serif;
+}
+
+.textFix {
+    margin: auto;
+    width: 80%;
+    /* height: 100%; */
+    padding: 10px;
+    text-align: justify !important;
+    letter-spacing: 1px;
+}
+
+.skillIcon {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+
+}
+
+.container .skillIcon  div{
+    height: 40%;
+    border: 2px solid #eee;
+    
+}
+
+.col {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 2% 0 0 0;
+    float: left;
+}
+
+/* =========================
+  Third block +  circle code
+========================== */
+.thirdRow {
+   height: 500px; /* just for now  */  
+   font-family: "Cairo";
+  font-weight: bolder;
+}
+
+
+.allInOne {
+  margin-top:  5% !important;
+}
+
+.thirdRow div{
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  color: rgb(44, 28, 28);
+  font-size: 16px;
+}
+
+
+.fixCircle {
+  /* flex: 25%; */
+  margin-left: 7% !important;
+}
+
+.fixH {
+  margin: 2% auto 0 auto !important;
+  width: 223px;
+  font-family: "Cairo";
+  font-size: 1.5em !important;
+}
+
+
+.circle{
+  width: 150px;
+  height: 150px;
+}
+
+.thirdRow p {
+  position: relative;
+  top: 25%;
+  left: -48%; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+}
+
+.lastDiv {
+  letter-spacing: initial;
+  color: #fff !important;
+   margin-top: 10px !important;
+}
+
+.p70 {
+  border: 4px solid #fff;
+  border-radius: 100%;
+  transform: rotate(30deg);
+/*    position: absolute;*/
+   clip-path: inset(0 0 0 30px )
+}
+
+.p60 {
+  margin: 0;
+  border: 4px solid #fff;
+  border-radius: 100%;
+  transform: rotate(10deg);
+   clip-path: inset(0 0 0 50px )
+}
+
+
+
+/* .fixH {
+  margin: 5% 0 0 0;
+} */
+
+
+.p20{
+  border: 3px solid #fff;
+  border-radius: 100%;
+  transform: rotate(-40deg);
+  clip-path: inset(0 0 60px 120px )
+}
+
+
+.p10 {
+  border: 3px solid #fff;
+  border-radius: 100%;
+  transform: rotate(-60deg);
+  clip-path: inset(0 0 70px 140px )
+}
+
+.p40 {
+  border: 3px solid #fff;
+  border-radius: 100%;
+  transform: rotate(10deg);
+  clip-path: inset(0 0 30px 60px )
+
+}
+
+/* =====================
+  Timeline
+===================== */
+
+
+
+.experience {
+  background-color: #F7F9F8;
+  height: 831px;
+  padding-top: 25px ;
+  font-size: initial !important;
+}
+
+.experience p , h3 {
+  text-align: initial !important;
+  font-weight: bolder !important;
+}
+
+.experience p {
+  margin: 4px 0 4px 0 !important;
+}
+
+
+.experience h1 {
+  color: #D92C2E;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeLine{
+  padding-top: 90px;
+  max-width: 1200px;
+  margin: 0 auto ; 
+  position: relative;
+
+}
+.timeLine::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 510px;
+  background-color: #d92c2e;
+  top: 15%;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+
+.container_2 {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  margin: 0px 0 -70px 0px;
+}
+
+
+/* The circles on the timeline */
+.container_2::after {
+  content: url('../img/plus.svg');  
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #d92c2e;
+  border: 4px solid #d92c2e;
+  top: 32%;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1), 
+  0px 20px 15px 0px rgba(0, 0, 0, 0.1); 
+}
+
+/* Place the container to the left */
+.left {
+  left: 0%;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+  margin-bottom: 0;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 50px;
+  width: 0;
+  z-index: 1;
+  right: 25px;
+  border: 15px solid #363B3F;
+  border-width: 15px 0 15px 15px;
+  border-color: transparent transparent transparent #363B3F;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 50px;
+  width: 0;
+  z-index: 1;
+  left: 25px;
+  border: 15px solid #363B3F;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #363B3F transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content_2 {
+  padding: 10px 30px;
+  background-color: #363B3F;
+  position: relative;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.content_2 h2 {
+  font-size: 1.7em;
+  font-weight: bolder;
+  font-family: inherit;
+  color: #fff;
+  text-align: initial; 
+  margin-bottom: 0;
+}
+
+.content_2 h3 {
+  letter-spacing: 2px;
+}
+
+/* ==================================
+      Photo gallery.....
+================================== */
+.gallery {
+  padding-top: 25px;
+  font-size: initial !important;
+  height: 900px;
+  background-color: #fff;
+  color: #D92C2E;
+  
+}
+
+.horiList {
+  padding: 50px 0 100px 0;
+  height: 90px;
+}
+
+
+.horiList ul {
+  display: flex;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.horiList li{
+  list-style: none;
+  text-transform: uppercase;
+  /* padding-right: 10px; */
+  margin: 0 40px 0 0;
+  height: 20px;
+}
+
+.horiList a {
+  text-decoration: none;
+  color: #C8C8C8;
+  font-weight: bolder;
+  font-size: 1.3em;
+  border: 2px solid #c8c8c8;
+  padding: 15px;
+}
+
+
+
+.horiList  a:hover:not(.active) {
+  background: #303030;
+  transition: all 0.3s;
+  color: #fff !important;
+}
+
+.active {
+  background-color: #d92c2e;
+  border: 2px solid #d92c2e !important;
+  color: #fff !important;
+}
+
+.photo {
+  margin: 0 auto;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+}
+
+.photo section {
+  border: 10px solid #fff;
+  flex-basis: 25%;
+}
+
+.photo section:nth-child(1){
+  background-image: url(../img/gallery/4755197828_3e124a23ba_b.jpg);
+  background-size: cover;
+}
+
+.photo section:nth-child(2){
+  background-image: url(../img/gallery/wallpaper.wiki-Desktop-HD-Vintage-Download-Photos-PIC-WPD004706.jpg);
+  background-size: cover;
+}
+
+.photo section:nth-child(3){
+  background-image: url(../img/gallery/6084754689_cafb0c06c4_b.jpg);
+  background-size: cover;
+}
+
+.photo section:nth-child(4){
+  background-image: url(../img/gallery/6953652-vintage-car-photography.jpg);
+  background-size: cover;
+}
+
+.photo section:nth-child(5){
+  background-image: url(../img/gallery/bike-old-street-photography-2560x1600.jpg);
+  background-size: cover;
+}
+
+
+.photo section:nth-child(6){
+  background-image: url(../img/gallery/paisaje-del-vintage-con-las-calles-soleadas-87736768.jpg);
+  background-size: cover;
+}
+
+.photo section:nth-child(7){
+  background-image: url(../img/gallery/vintage7.jpg);
+  background-size: cover;
+}
+
+.photo section:nth-child(8){
+  background-image: url(../img/gallery/vintage-interior-design-popular-ideas-you-were-desperately-looking-for-throughout-2.jpg);
+  background-size: cover;
+}
+/* ==================================
+      Shoot a message 
+================================== */
+
+.message{
+  background: #F7F9F8;
+  color: #d92c2e;
+  padding-top: 25px;
+  font-size: initial !important;
+  height: 450px;
+  margin: 0;
+  border-bottom: 6px solid #d92c2e;
+}
+
+.message div {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.message input[type=text], textarea {
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+  font-size: 1em;
+  color: #C8C8C8;
+  border: 2px solid #c8c8c8;
+  background: #F7F9F8;
+}
+
+.message textarea {
+  width: 62% !important;
+  resize: none;
+  height: 90px !important;
+}
+
+input[type=submit] {
+  margin-top: 20px;
+  width: 15%;
+  height: 60px;
+  background-color: #D92C2E;
+  color: #fff;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=submit]:hover {
+  background: #303030;
+  transition: all 1s;
+  
+}
+
+/* 
+===========
+map
+============ */
+
+#map{
+  height: 500px;
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: initial;
+  height: 200px;
+  background-color: #303030;
+  padding-top: 40px;
+  letter-spacing: initial;
+  font-size: 1.2rem;
+}
+
+footer span {
+  font-size: 2rem;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff; 
+}
+
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* container block two */
+  .container {
+    height: 700px;
+    width: 100%;
+  }
+
+  .skillIcon {
+    width: 100%;
+  }
+
+  .col {
+    width: 25%;
+  }
+
+  .col img {
+    width: 35%;
+    height: 35%;
+  }
+  
+  .col p {
+    font-size: 0.7em;
+  }
+
+  /* Place the timelime to the left */
+    .timeLine::after {
+      left: 31px;
+    }
+  
+  /* Full-width containers */
+    .container_2 {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+  /* Make sure that all arrows are pointing leftwards */
+    .container_2::before {
+      left: 60px;
+      border: medium solid #363B3F;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent #363B3F transparent transparent;
+    }
+  
+  /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+  /* Make all right containers behave like the left ones */
+    .right {
+      left: 1%;
+    }
+    .left {
+      left: 1%;
+      /* right: -20%; */
+    }
+  }
+  
